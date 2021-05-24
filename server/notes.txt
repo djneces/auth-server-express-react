@@ -1,0 +1,8 @@
+bcrypt - encode passport
+jwt - issue a token for users
+passport - authenticate an user when he visits a route what needs authentication
+
+
+sign up -> verify email if not used -> token (jwtLogin strategy)
+sign in -> verify email AND password -> token (localLogin strategy)
+auth'd request -> verify token -> resource access (jwtLogin strategy)
